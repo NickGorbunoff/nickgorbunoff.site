@@ -105,4 +105,9 @@ a:active {
 		color: #4bd0a7;
 		border-color: #4bd0a7;
 	}
+	.btn-outline:hover,
+	.btn-outline:focus,
+	.btn-outline:active {
+		color: #ffffff;
+	}
 }
