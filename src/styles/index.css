@@ -11,16 +11,9 @@ a:active {
 }
 
 .info {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	    -ms-flex-direction: column;
-	        -webkit-box-orient: vertical;
-	        -webkit-box-direction: normal;
-	            flex-direction: column;
+	align-items: center;
+	flex-direction: column;
 	padding: 2rem 0;
 }
 
@@ -51,7 +44,6 @@ a:active {
 }
 
 .btn-outline {
-	-webkit-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
 
@@ -74,20 +66,11 @@ a:active {
 
 .list-inline {
 	list-style-type: none;
-		display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	    -ms-flex-pack: center;
-	        -webkit-box-pack: center;
-	            justify-content: center;
-	    -ms-flex-direction: row;
-	        -webkit-box-orient: horizontal;
-	        -webkit-box-direction: normal;
-	            flex-direction: row;
+	justify-content: center;
+	flex-direction: row;
 	padding: 0;
 	margin: 0;
-	-ms-flex-wrap: wrap;
-	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 
